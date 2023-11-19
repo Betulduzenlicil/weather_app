@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Kenia&family=Teko&display=swap');
+body{
+    height: 100vh;
+   background-image: url(./img/hava.gif); 
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.container{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgba(161, 169, 169, 0.515);
+    color: blanchedalmond;
+    border-radius: 20px;
+   
+}
+
+#weather-input{
+    margin: 1rem;
+    padding: 1rem;
+    width: 50%;
+    border-radius: 5px;
+
+}
+
+.btn{
+    padding: .5rem;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+.card-body{
+    text-align: center;
+    font-size: 1.5rem;
+    color: aliceblue;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   text-align: center;
+   box-shadow: 2px 2px 2px yellow;
+}
